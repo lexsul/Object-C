@@ -31,6 +31,7 @@
 		FA95039A226597520093926C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		FA95039C2265A5060093926C /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		FA95039D2265A5060093926C /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		FAD027772265B55000CF1EAD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 		FA950386226597100093926C = {
 			isa = PBXGroup;
 			children = (
+				FAD027772265B55000CF1EAD /* .gitignore */,
 				FA950391226597100093926C /* BMITime */,
 				FA950390226597100093926C /* Products */,
 			);
