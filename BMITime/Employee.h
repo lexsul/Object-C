@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 {
     int employeeID;
 }
-@property int emloyeeID;
+@property int employeeID;
 @end
 
 NS_ASSUME_NONNULL_END
