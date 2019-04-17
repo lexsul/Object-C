@@ -12,9 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface StockHolding : NSObject
 {
-    float purchaseSharePrice;
-    float currentSharePrice;
-    int numberOfShares;
+  float purchaseSharePrice;
+  float currentSharePrice;
+  int numberOfShares;
 }
 @property float purchaseSharePrice;
 @property float currentSharePrice;

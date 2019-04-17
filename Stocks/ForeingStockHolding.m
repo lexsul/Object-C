@@ -9,5 +9,16 @@
 #import "ForeingStockHolding.h"
 
 @implementation ForeingStockHolding
+@synthesize conversionRate;
+- (float)costInDollars
+{
+  float rateCost = [super costInDollars];
+  return rateCost * [self conversionRate];
+}
 
+- (float)valueInDollars
+{
+  float rateCost = [super valueInDollars];
+  return rateCost * [self conversionRate];
+}
 @end
