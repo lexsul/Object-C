@@ -1,5 +1,5 @@
 //
-//  main.m
+//  Stocks.h
 //  Stocks
 //
 //  Created by Сулейманов Алексей on 16/04/2019.
@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-    }
-    return 0;
-}
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Stocks : NSObject
+
+@end
+
+NS_ASSUME_NONNULL_END
